@@ -147,3 +147,29 @@ form input[type="email"],
 form textarea {
   width: 250px; /* Set a consistent width for input fields and textarea */
 }
+/* Base styles for all screen sizes */
+/* Add your existing CSS styles here */
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .main-detil {
+    text-align: center;
+  }
+}
+
+/* Media query for screens between 601px and 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Media query for screens larger than 1024px */
+@media screen and (min-width: 1025px) {
+  .nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
